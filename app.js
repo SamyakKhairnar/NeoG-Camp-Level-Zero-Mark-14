@@ -26,12 +26,12 @@ function checkStockReturn(){
         var loss = (buy - current) * quantity;
 		var lossPercent = (loss / (buy * quantity)) * 100;
 		output.style.color = "red";
-        output.innerText = "Oh No ☹️ ! You're in Loss of "+lossPercent+"% which is Rs. "+loss+"/-";
+        output.innerText = "Oh No ☹️ !\n You're in Loss of "+lossPercent+"% which is Rs. "+loss+"/-";
     }else if(current > buy){
         var profit = (current - buy) * quantity;
 		var profitPercent = (profit / (buy * quantity)) * 100;
 		output.style.color = "green";
-        output.innerText = "Congratulations 😃 ! You're in Profit of "+profitPercent+"% which is Rs. "+profit+"/-";
+        output.innerText = "Congratulations 😃 !\n You're in Profit of "+profitPercent+"% which is Rs. "+profit+"/-";
     }else{
         output.style.color = "yellow";
         output.innerText = "No Worries 😃 ! There's No Loss but also No Profit ☹️ !!"

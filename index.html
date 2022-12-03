@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Profit or Loss</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/441a130e90.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <video autoplay muted loop id="myVideo"><source src="/StockTrading.mp4" type="video/mp4"></video>
     <div class="container">
-        <h1>Profit or Loss</h1>
-        <p>Check Your Stocks Returns with Percentage</p>
+        <h1><span class="green">Profit</span> or <span class="red">Loss</span></h1>
+        <p>Check Your Stock's Returns with Percentage</p>
         <label for="initial-price">Enter Initial Price</label>
         <input type="number" id="initial-price">
 
@@ -24,9 +26,8 @@
         <button id="check-btn">Check</button>
 
         <h2 id="message"></h2>
-
     </div>
-
+    
     <div class='footer'>
         <p>Copyright &#169; 2022 All Rights Reserved</p>
         <ul class="social-links list-non-bullet">
