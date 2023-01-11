@@ -10,10 +10,10 @@
     <script src="https://kit.fontawesome.com/441a130e90.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <video autoplay muted loop id="myVideo"><source src="/StockTrading.mp4" type="video/mp4"></video>
+    <video autoplay muted loop id="myVideo" class="vdo"><source src="/StockTrading.mp4" type="video/mp4"></video>
     <div class="container">
         <h1><span class="green">Profit</span> or <span class="red">Loss</span></h1>
-        <p>Check Your Stock's Returns with Percentage</p>
+        <p class="tagline">Check Your Stock's Returns with Percentage</p>
         <label for="initial-price">Enter Initial Price</label>
         <input type="number" id="initial-price">
 
@@ -23,7 +23,7 @@
         <label for="current-price">Enter Current Price</label>
         <input type="number" id="current-price">
 
-        <button id="check-btn">Check</button>
+        <button id="check-btn" class="btn">Check</button>
 
         <h2 id="message"></h2>
     </div>
