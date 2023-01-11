@@ -125,6 +125,13 @@ h2{
     .container {
       width: 100%;
     }
+    h1{
+      font-size: xx-large;
+    }
+    p{
+      margin-bottom: 5px;
+      font-size: large;
+    }
     .btn{
           width: 40%;
       }
